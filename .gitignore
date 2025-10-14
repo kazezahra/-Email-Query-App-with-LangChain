@@ -1,0 +1,13 @@
+# Ignore environment variables
+.env
+
+# Ignore cache and token files
+token_cache.json
+__pycache__/
+chroma_db_*/
+chroma_db_test/
+.DS_Store
+*.log
+
+# Ignore virtual environment
+venv/
