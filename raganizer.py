@@ -1,7 +1,8 @@
 # raganizer.py
 from bs4 import BeautifulSoup
 from langchain.docstore.document import Document
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
+
 from langchain_community.vectorstores import Chroma
 
 def clean_html(html_text):
